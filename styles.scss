@@ -1,0 +1,60 @@
+$color-title: blue;
+
+
+@media(min-width: 500px){
+  h1::before{
+    content: "Personal Website";
+  }
+}
+@media(max-width: 499px){
+  h1::before{
+    content: "Personal Web";
+  }
+}
+
+h1 {
+	text-align: center;
+}
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+th{
+  background-color: lightgray;
+}
+th,td{
+  border: 1px solid black;
+  padding: 5px;
+}
+p{
+  width: 450px;
+  font-family: sans-serif;
+}
+li{
+  font-family: verdana;
+}
+a{
+  font-family: arial;
+  font-size: 14px;
+}
+
+p{
+  font-size:1.5vw;
+}
+
+#middle {
+    text-align: justify;
+}
+.titlemenu {
+  color: $color-title;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+.col-sm-auto {
+  background-color: lightgray;
+}

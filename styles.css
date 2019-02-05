@@ -1,0 +1,82 @@
+@media (min-width: 500px) {
+  /* line 5, C:/Users/nasrullah/lecture0/styles.scss */
+  h1::before {
+    content: "Personal Website";
+  }
+}
+
+@media (max-width: 499px) {
+  /* line 10, C:/Users/nasrullah/lecture0/styles.scss */
+  h1::before {
+    content: "Personal Web";
+  }
+}
+
+/* line 15, C:/Users/nasrullah/lecture0/styles.scss */
+h1 {
+  text-align: center;
+}
+
+/* line 18, C:/Users/nasrullah/lecture0/styles.scss */
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+/* line 23, C:/Users/nasrullah/lecture0/styles.scss */
+th {
+  background-color: lightgray;
+}
+
+/* line 26, C:/Users/nasrullah/lecture0/styles.scss */
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+/* line 30, C:/Users/nasrullah/lecture0/styles.scss */
+p {
+  width: 450px;
+  font-family: sans-serif;
+}
+
+/* line 34, C:/Users/nasrullah/lecture0/styles.scss */
+li {
+  font-family: verdana;
+}
+
+/* line 37, C:/Users/nasrullah/lecture0/styles.scss */
+a {
+  font-family: arial;
+  font-size: 14px;
+}
+
+/* line 42, C:/Users/nasrullah/lecture0/styles.scss */
+p {
+  font-size: 1.5vw;
+}
+
+/* line 46, C:/Users/nasrullah/lecture0/styles.scss */
+#middle {
+  text-align: justify;
+}
+
+/* line 49, C:/Users/nasrullah/lecture0/styles.scss */
+.titlemenu {
+  color: blue;
+}
+
+/* line 53, C:/Users/nasrullah/lecture0/styles.scss */
+.responsive {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+/* line 58, C:/Users/nasrullah/lecture0/styles.scss */
+.col-sm-auto {
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=../project0/styles.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../lecture0/styles.css",
+	"sources": [
+		"../lecture0/styles.scss"
+	],
+	"sourcesContent": [
+		"$color-title: blue;\r\n\r\n\r\n@media(min-width: 500px){\r\n  h1::before{\r\n    content: \"Personal Website\";\r\n  }\r\n}\r\n@media(max-width: 499px){\r\n  h1::before{\r\n    content: \"Personal Web\";\r\n  }\r\n}\r\n\r\nh1 {\r\n\ttext-align: center;\r\n}\r\ntable{\r\n  border: 2px solid black;\r\n  border-collapse: collapse;\r\n  font-family: sans-serif;\r\n}\r\nth{\r\n  background-color: lightgray;\r\n}\r\nth,td{\r\n  border: 1px solid black;\r\n  padding: 5px;\r\n}\r\np{\r\n  width: 450px;\r\n  font-family: sans-serif;\r\n}\r\nli{\r\n  font-family: verdana;\r\n}\r\na{\r\n  font-family: arial;\r\n  font-size: 14px;\r\n}\r\n\r\np{\r\n  font-size:1.5vw;\r\n}\r\n\r\n#middle {\r\n    text-align: justify;\r\n}\r\n.titlemenu {\r\n  color: $color-title;\r\n}\r\n\r\n.responsive {\r\n  width: 100%;\r\n  max-width: 250px;\r\n  height: auto;\r\n}\r\n.col-sm-auto {\r\n  background-color: lightgray;\r\n}\r\n"
+	],
+	"mappings": "AAGA,MAAM,EAAL,SAAS,EAAE,KAAK;;EACf,AAAE,EAAA,AAAA,QAAQ,CAAA;IACR,OAAO,EAAE,kBAAmB;GAC7B;;;AAEH,MAAM,EAAL,SAAS,EAAE,KAAK;;EACf,AAAE,EAAA,AAAA,QAAQ,CAAA;IACR,OAAO,EAAE,cAAe;GACzB;;;;AAGH,AAAA,EAAE,CAAC;EACF,UAAU,EAAE,MAAO;CACnB;;;AACD,AAAA,KAAK,CAAA;EACH,MAAM,EAAE,eAAgB;EACxB,eAAe,EAAE,QAAS;EAC1B,WAAW,EAAE,UAAW;CACzB;;;AACD,AAAA,EAAE,CAAA;EACA,gBAAgB,EAAE,SAAU;CAC7B;;;AACD,AAAA,EAAE,EAAC,AAAA,EAAE,CAAA;EACH,MAAM,EAAE,eAAgB;EACxB,OAAO,EAAE,GAAI;CACd;;;AACD,AAAA,CAAC,CAAA;EACC,KAAK,EAAE,KAAM;EACb,WAAW,EAAE,UAAW;CACzB;;;AACD,AAAA,EAAE,CAAA;EACA,WAAW,EAAE,OAAQ;CACtB;;;AACD,AAAA,CAAC,CAAA;EACC,WAAW,EAAE,KAAM;EACnB,SAAS,EAAE,IAAK;CACjB;;;AAED,AAAA,CAAC,CAAA;EACC,SAAS,EAAC,KAAM;CACjB;;;AAED,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,OAAQ;CACvB;;;AACD,AAAA,UAAU,CAAC;EACT,KAAK,EAjDO,IAAI;CAkDjB;;;AAED,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,IAAK;EACZ,SAAS,EAAE,KAAM;EACjB,MAAM,EAAE,IAAK;CACd;;;AACD,AAAA,YAAY,CAAC;EACX,gBAAgB,EAAE,SAAU;CAC7B",
+	"names": []
+}
